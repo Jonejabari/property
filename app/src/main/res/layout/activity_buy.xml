@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_buy.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/images"
+    tools:context=".BuyActivity">
+
+    <TextView
+        android:id="@+id/congratulationsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Congratulations Mabope!" />
+
+    <TextView
+        android:id="@+id/buyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/congratulationsTextView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Property Successfully Bought" />
+
+    <Button
+        android:id="@+id/viewMoreButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buyTextView"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"
+        android:text="View More Properties" />
+
+
+
+</RelativeLayout>
